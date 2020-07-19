@@ -1,9 +1,12 @@
 import React from 'react';
-import { SampleComponent } from 'components';
+import { Header, Menu } from 'components';
 
 function App() {
   return (
-    <SampleComponent />
+    <div>
+      <Menu />
+      {/* <Header /> */}
+    </div>
   );
 }
 

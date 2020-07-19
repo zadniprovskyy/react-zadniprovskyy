@@ -1,1 +1,2 @@
-export { SampleComponent } from './sample-component/sample-component';
+export { Header } from './header/header';
+export { Menu } from './menu/menu';
