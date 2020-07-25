@@ -13,13 +13,13 @@ export class Header extends React.Component {
   render () {
     return (
       <div class="container demo">
-          <div class="content">
-              <div id="large-header" class="large-header height-10">
-                  <canvas id="demo-canvas"></canvas>
-                  <h1 class="main-title">Yegor Zadniprovskyy</h1>
-              </div>
-          </div>
-      </div>
+        <div class="content">
+            <div id="large-header" class="large-header">
+              <canvas id="demo-canvas"></canvas>
+              <h1 class="main-title"><span class="thin">Yegor Zadniprovskyy</span></h1>
+            </div>
+        </div>
+    </div>
     );
   }
 

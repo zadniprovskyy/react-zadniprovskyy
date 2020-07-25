@@ -1,11 +1,15 @@
 import React from 'react';
-import { Header, Menu } from 'components';
-
+import { Header, Menu, AboutMe, Projects, Footer, Social } from 'components';
 function App() {
   return (
-    <div>
+    <div class="bg-black">
       <Menu />
-      {/* <Header /> */}
+      <Header />
+      <AboutMe />
+      <Projects />
+      <Footer />
+      <Social />
+      {/* <Social /> */}
     </div>
   );
 }
