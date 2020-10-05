@@ -4,3 +4,4 @@ export { AboutMe } from './aboutMe/aboutMe';
 export { Projects } from './projects/projects';
 export { Footer } from './footer/footer';
 export { Social } from './social/social';
+export { Work } from './work/work';

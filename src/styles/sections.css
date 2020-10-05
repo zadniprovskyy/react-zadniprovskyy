@@ -1,0 +1,60 @@
+/* .projectsSection {
+    background-color: white;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(10px + 1.3vmin);
+  } */
+  
+  .projectsSection ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .projectsSection li {
+    padding-left: 2.5rem;
+    position: relative;
+    margin-top: 2rem;
+  }
+  .projectsSection li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #000000;
+  }
+  .projectsSection li a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .projectsSection li a:hover {
+    text-decoration: underline;
+  }
+
+  /* Work section */
+
+  .workSection ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .workSection li {
+    padding-left: 2.5rem;
+    position: relative;
+    margin-top: 2rem;
+  }
+  .workSection li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #bee3f8;
+  }
+  .workSection li a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .workSection li a:hover {
+    text-decoration: underline;
+  }
